@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// teste
+
 #define NUM_ELEMENTS 5
 
 int multiplyNumbers(int x, int y) {
