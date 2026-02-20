@@ -8,10 +8,11 @@ const int BTN_PIN2 = 26;
 const int LED_PIN_R = 4;
 const int LED_PIN_Y = 6;
 
-int led_r_state = 0;
-int led_y_state = 0;
+
 
 int main() {
+  int led_r_state = 0;
+  int led_y_state = 0;
   stdio_init_all();
 
   gpio_init(BTN_PIN);
